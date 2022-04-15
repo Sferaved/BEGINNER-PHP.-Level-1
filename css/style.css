@@ -1,0 +1,11 @@
+div {
+    width: 450px;
+}
+
+.bloc1 {
+    border-width:1;
+    border-color: rgb(190,190,190);
+    border-style: solid;
+    width: 80px;
+    float: left;
+}
