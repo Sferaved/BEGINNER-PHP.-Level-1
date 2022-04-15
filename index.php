@@ -8,12 +8,18 @@
 </head>
 <body>
  <header>
-
+    <nav>
+        <a href="#">Lesson 1</a>
+        <a href="#">Lesson 2</a>
+    </nav>
  </header>
     <main>
      <section>
-        <H1>Привет невиданная херь!</H1>
+        <H1>Hello, NIX Education</H1>
      </section>
     </main>
+ <footer>
+
+ </footer>
 </body>
 </html>
