@@ -1,11 +1,21 @@
 div {
-    width: 450px;
+    width: 520px;
 }
 
 .bloc1 {
     border-width:1;
     border-color: rgb(190,190,190);
     border-style: solid;
-    width: 80px;
+    width: 90px;
     float: left;
+}
+
+.grey {
+    background-color: rgba(128,128,128,.25);
+}
+.red {
+    background-color: rgba(255,0,0,.25);
+}
+.blue {
+    background-color: rgba(0,0,255,.25);
 }

@@ -10,7 +10,6 @@
 <header>
     <nav>
         <a href="index.php">Main</a>
-        <a href="#">Lesson 2</a>
     </nav>
 </header>
 <main>
@@ -22,7 +21,7 @@
                 <div class="bloc1">
                     <?php
                     for ($td=1; $td<=10; $td++){
-                        echo $td.'*'.$tr.'='.$tr*$td."<br>";
+                        echo $tr.'*'.$td.'='.$tr*$td."<br>";
                     }
                     ?>
                 </div>
@@ -37,7 +36,7 @@
                 <div class="bloc1">
                     <?php
                     for ($td=1; $td<=10; $td++){
-                        echo $td.'*'.$tr.'='.$tr*$td."<br>";
+                        echo $tr.'*'.$td.'='.$tr*$td."<br>";
                     }
                     ?>
                 </div>
