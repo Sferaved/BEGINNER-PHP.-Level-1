@@ -11,6 +11,7 @@
     <nav>
         <a href="lesson1.php">Lesson 1</a>
         <a href="lesson2.php">Lesson 2</a>
+        <a href="lesson3.php">Lesson 3</a>
     </nav>
  </header>
     <main>

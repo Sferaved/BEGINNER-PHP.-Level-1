@@ -13,7 +13,7 @@
     </nav>
 </header>
 <main>
-    <section id="lesson1">
+    <section id="lesson2">
         <div>
             <?php
             $red="<span style='color: red'>";         // color for 1
