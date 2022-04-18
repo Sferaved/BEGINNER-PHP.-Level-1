@@ -12,17 +12,17 @@
 <main>
     <section id="lesson3-1">
          <?php
-         $str=$_POST['inputText'];
-         function mb_strrev($str){
+         $str = $_POST['inputText'];
+         function mb_strrev($st): string
+         {
              $r = '';
-             for ($i = mb_strlen($str); $i>=0; $i--) {
-                 $r .= mb_substr($str, $i, 1);
+             for ($i = mb_strlen($st); $i >= 0; $i--) {
+                 $r .= mb_substr($st, $i, 1);
              }
              return $r;
          }
-         $str_rez=mb_strrev($str);
-         echo 'Вводили: ' . $str . "<br>" . 'Стало: ' .$str_rez;
-         ?>
+         $str_rez = mb_strrev($str);
+         echo 'Вводили: ' . $str . "<br>" . 'Стало: ' . $str_rez; ?>
         <p>
         <form action="lesson3.php" target="_self">
             <button>Назад</button>

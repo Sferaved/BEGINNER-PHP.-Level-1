@@ -16,12 +16,12 @@
     <section id="lesson1">
         <div>
             <?php
-            for ($tr=1; $tr<=5; $tr++){
+            for ($tr = 1; $tr <= 5; $tr++) {
                 ?>
                 <div class="bloc1">
                     <?php
-                    for ($td=1; $td<=10; $td++){
-                        echo $tr.'*'.$td.'='.$tr*$td."<br>";
+                    for ($td = 1; $td <= 10; $td++) {
+                        echo $tr . '*' . $td . '=' . $tr * $td . "<br>";
                     }
                     ?>
                 </div>
@@ -31,12 +31,12 @@
         </div>
         <div>
             <?php
-            for ($tr=6; $tr<=10; $tr++){
+            for ($tr = 6; $tr <= 10; $tr++) {
                 ?>
                 <div class="bloc1">
                     <?php
-                    for ($td=1; $td<=10; $td++){
-                        echo $tr.'*'.$td.'='.$tr*$td."<br>";
+                    for ($td = 1; $td <= 10; $td++) {
+                        echo $tr . '*' . $td . '=' . $tr * $td . "<br>";
                     }
                     ?>
                 </div>
